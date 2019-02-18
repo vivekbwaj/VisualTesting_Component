@@ -14,9 +14,9 @@ module.exports = async (page, scenario) => {
         await page.waitForSelector("form.cb-form");
     }
     const uNameField = await page.$("input[name='username']");
-    await uNameField.type("migrationmerged3@gmail.com");
+    await uNameField.type("abcd@gmail.com");
     const pwdField = await page.$("input[name='password']");
-    await pwdField.type("Password1");
+    await pwdField.type("abcd");
     const loginBtn = await page.$("button[type='submit']");
     await loginBtn.click();
     await page.waitFor(5000);

@@ -10,9 +10,9 @@ module.exports = async (page, scenario) => {
     await page.waitForSelector("#login-modal-form");
     await page.screenshot({path: screenshotDir + "modalLogin.png", fullPage: true});
     const uNameField = await page.$("input[id='modal-login-username']");
-    await uNameField.type("migrationmerged3@gmail.com");
+    await uNameField.type("abcd@gmail.com");
     const pwdField = await page.$("input[id='modal-login-password']");
-    await pwdField.type("Password1");
+    await pwdField.type("abcd");
     const loginlink = await page.$("a[id='modal-login-trigger']");
     await loginlink.click();
 

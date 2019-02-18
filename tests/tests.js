@@ -70,7 +70,7 @@ module.exports = {
                     "cookiePath": "backstop_data/engine_scripts/cookies.json",
                     "url": args.BS_TESTHOST + paths[k] + config.OPTIMIZELY,
                     "referenceUrl": args.BS_REFHOST + paths[k] + config.OPTIMIZELY,
-                    "onBeforeScript": config.CUSTOM_SCRIPTS_PATHS + "liveBettingOnBefore.js",
+                    "onBeforeScript": config.CUSTOM_SCRIPTS_PATHS + "nextToJumpOnBefore.js",
                     "onReadyScript": engine_script,
                     "delay": 0,
                     "postInteractionWait": 5000,
