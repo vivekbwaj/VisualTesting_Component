@@ -1,0 +1,117 @@
+{
+  "EventTypes": [{
+    "EventTypeID": 107,
+    "EventTypeDesc": "Basketball",
+    "EventTypeSlug": "basketball",
+    "MasterCategories": [{
+      "MasterCategoryID": 222,
+      "MasterCategoryName": "NCAA",
+      "MasterCategorySlug": "ncaa"
+    }, {
+      "MasterCategoryID": 37,
+      "MasterCategoryName": "NBA",
+      "MasterCategorySlug": "nba"
+    }],
+    "Events": [{
+      "Slug": "team-lebron-team-giannis",
+      "MatchStatus": {
+        "HomeName": "STAG TEAM 2",
+        "HomeScore": [{
+          "Label": "HomeScore",
+          "Value": "95"
+        }],
+        "AwayName": "STAG TEAM 1",
+        "AwayScore": [{
+          "Label": "AwayScore",
+          "Value": "82"
+        }],
+        "Status": "(Q3:12.00)"
+      },
+      "DisplayMasterCategoryName": "NBA",
+      "CategorySlug": "nba-all-star-weekend",
+      "EventCount": 7,
+      "VisionStatus": "NotAvailable",
+      "MasterEventID": 1210265,
+      "MasterEventName": "Origin office",
+      "CategoryName": "NBA All Star Weekend",
+      "MasterCategoryID": 37,
+      "FeaturedMarket": {
+        "EventID": 35195192,
+        "EventName": "H2H",
+        "AdvertisedStartTime": "2019-02-18T01:00:00Z",
+        "IsOpenForBetting": true,
+        "IsMultiAllowed": true,
+        "Outcomes": [{
+          "FixedMarketID": 163233088,
+          "OutcomeID": 1,
+          "OutcomeName": "STAG TEAM 2",
+          "Price": 1.37,
+          "MarketTypeCode": "WIN",
+          "BetDetailTypeCode": "WIN",
+          "DividendTypeCode": "FIXED",
+          "OutcomeHeader": "STAG TEAM 2: "
+        }, {
+          "FixedMarketID": 163233089,
+          "OutcomeID": 2,
+          "OutcomeName": "STAG TEAM 1",
+          "Price": 2.94,
+          "MarketTypeCode": "WIN",
+          "BetDetailTypeCode": "WIN",
+          "DividendTypeCode": "FIXED",
+          "OutcomeHeader": "STAG TEAM 1: "
+        }]
+      }
+    }, {
+      "Slug": "arizona-wildcats-colorado-buffaloes",
+      "MatchStatus": {
+        "HomeName": "Colorado Buffaloes",
+        "HomeScore": [{
+          "Label": "HomeScore",
+          "Value": "65"
+        }],
+        "AwayName": "Arizona Wildcats",
+        "AwayScore": [{
+          "Label": "AwayScore",
+          "Value": "58"
+        }],
+        "Status": "(H2:01.00)"
+      },
+      "DisplayMasterCategoryName": "NCAA",
+      "CategorySlug": "ncaa-matches",
+      "EventCount": 0,
+      "VisionStatus": "NotAvailable",
+      "MasterEventID": 1205863,
+      "MasterEventName": "Arizona Wildcats @ Colorado Buffaloes",
+      "CategoryName": "NCAA Matches",
+      "MasterCategoryID": 222,
+      "FeaturedMarket": {
+        "EventID": 35290729,
+        "EventName": "Line",
+        "AdvertisedStartTime": "2019-02-18T01:00:00Z",
+        "IsOpenForBetting": false,
+        "IsMultiAllowed": true,
+        "Outcomes": [{
+          "FixedMarketID": 163620993,
+          "OutcomeID": 1,
+          "OutcomeName": "Colorado Buffaloes",
+          "Price": 2.48,
+          "MarketTypeCode": "HCWEST",
+          "BetDetailTypeCode": "HC",
+          "DividendTypeCode": "FIXED",
+          "Points": -7.5,
+          "OutcomeHeader": "Colorado Buffaloes: "
+        }, {
+          "FixedMarketID": 163620994,
+          "OutcomeID": 2,
+          "OutcomeName": "Arizona Wildcats",
+          "Price": 1.5,
+          "MarketTypeCode": "HCWEST",
+          "BetDetailTypeCode": "HC",
+          "DividendTypeCode": "FIXED",
+          "Points": 7.5,
+          "OutcomeHeader": "Arizona Wildcats: "
+        }]
+      }
+    }]
+  }]
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "domain": "peg-4281.www.uat.betdev.com.au/",
+    "path": "/",
+    "name": "_be_uiEnabled",
+    "value": "true",
+    "expirationDate": 1798790400,
+    "hostOnly": false,
+    "httpOnly": false,
+    "secure": false,
+    "session": false,
+    "sameSite": "no_restriction"
+  },
+  {
+    "domain": "peg-4281.www.uat.betdev.com.au/",
+    "path": "/",
+    "name": "_be_raceCardEnabled",
+    "value": "true",
+    "expirationDate": 1798790400,
+    "hostOnly": false,
+    "httpOnly": false,
+    "secure": false,
+    "session": false,
+    "sameSite": "no_restriction"
+  }
+]

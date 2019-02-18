@@ -1,0 +1,43 @@
+{
+  "SportsEvents": [{
+    "EventTypeDesc": "Another awesome meetup...",
+    "EventTypeSlug": "Another awesome meetup...",
+    "MasterEventSlug": "xiaodi-you-v-robu-kajitani",
+    "CategorySlug": "itf-kyoto-women",
+    "MasterCategorySlug": "itf-tour",
+    "EventCount": 5,
+    "VisionStatus": "NotAvailable",
+    "MasterEventID": 1213078,
+    "CategoryID": 39208,
+    "EventTypeID": 104,
+    "MasterEventName": "Xiaodi You v Robu Kajitani",
+    "CategoryName": "ITF Kyoto Women",
+    "MasterCategoryID": 64,
+    "MasterCategoryName": "ITF Tour",
+    "AdvertisedStartTime": "2019-02-18T03:50:00Z",
+    "FeaturedMarket": {
+      "EventID": 35337530,
+      "EventName": "Head to Head",
+      "IsMultiAllowed": true,
+      "Outcomes": [{
+        "FixedMarketID": 163808140,
+        "OutcomeID": 1,
+        "OutcomeName": "Xiaodi You",
+        "Price": 1.1,
+        "MarketTypeCode": "WIN",
+        "BetDetailTypeCode": "WIN",
+        "DividendTypeCode": "FIXED",
+        "OutcomeHeader": "Xiaodi You: "
+      }, {
+        "FixedMarketID": 163808141,
+        "OutcomeID": 2,
+        "OutcomeName": "Robu Kajitani",
+        "Price": 6.2,
+        "MarketTypeCode": "WIN",
+        "BetDetailTypeCode": "WIN",
+        "DividendTypeCode": "FIXED",
+        "OutcomeHeader": "Robu Kajitani: "
+      }]
+    }
+  }]
+}

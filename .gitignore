@@ -1,0 +1,8 @@
+.vs/
+.vscode/
+.idea/
+node_modules/
+backstop_data/*_ci_report/
+backstop_data/*_html_report/
+backstop_data/*_test/
+backstop_data/engine_Scripts_Screenshots/
