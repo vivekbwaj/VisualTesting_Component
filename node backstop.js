@@ -20,7 +20,7 @@ module.exports =
             },
             {
                 "name": "tablet",
-                "width": 768,
+                "width": 500,
                 "height": 600
             },
             {
@@ -46,7 +46,7 @@ module.exports =
             ]
         },
         "engineFlags": [],
-        "asyncCaptureLimit": 1,
+        "asyncCaptureLimit": 4,
         "asyncCompareLimit": 20,
         "resembleOutputOptions": {
             "ignoreAntialiasing": true,
