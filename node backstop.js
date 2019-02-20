@@ -46,7 +46,7 @@ module.exports =
             ]
         },
         "engineFlags": [],
-        "asyncCaptureLimit": 4,
+        "asyncCaptureLimit": 1,
         "asyncCompareLimit": 20,
         "resembleOutputOptions": {
             "ignoreAntialiasing": true,
