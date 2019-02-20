@@ -15,12 +15,12 @@ module.exports =
             },
             {
                 "name": "phone",
-                "width": 320,
-                "height": 480
+                "width": 375,
+                "height": 812
             },
             {
                 "name": "tablet",
-                "width": 500,
+                "width": 768,
                 "height": 600
             },
             {
@@ -53,5 +53,5 @@ module.exports =
             "largeImageThreshold": 0
         },
         "debug": true,
-        "debugWindow": true
+        "debugWindow": false
     };

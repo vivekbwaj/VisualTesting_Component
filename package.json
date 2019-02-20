@@ -4,8 +4,6 @@
   "description": "For basic steps follow http://automationtipsntricks.blogspot.com.au/search/label/BackstopJS",
   "main": "node backstop.js",
   "scripts": {
-    "sonar": "sonar-scanner.bat -Dsonar.projectKey=BetEasy.visualregression -Dsonar.sources=. -Dsonar.host.url=http://sonar.qa.cbenv.com.au:9000 -Dsonar.login=testauto -Dsonar.password=Password1",
-    "test": "echo \"try npm scripts\" ",
     "lint": "eslint **/*.js --fix",
     "prod-reference": "cross-env BS_ENV=prod BS_PATHSFILE=paths BS_REFHOST=prod  backstop reference --configPath=\"node backstop.js\" ",
     "prod-test": "cross-env BS_ENV=prod BS_PATHSFILE=paths BS_TESTHOST=prod  backstop test --configPath=\"node backstop.js\" ",
@@ -13,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "ssh://git@stash.aws.beteasy.com.au:7999/ca/crownbet.visualregression.git"
+    "url": "https://github.com/vivekbwaj/VisualTesting_Component.git"
   },
   "author": "Vivek Bhardwaj",
   "license": "ISC",
@@ -28,6 +26,7 @@
     "eslint-config-airbnb": "^16.1.0"
   },
   "dependencies": {
-    "cross-env": "^5.1.6"
+    "cross-env": "^5.1.6",
+    "npm": "^6.8.0"
   }
 }

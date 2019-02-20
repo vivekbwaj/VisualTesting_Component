@@ -7,14 +7,14 @@ let args = config.ARGS;
 
 const test_label = ["RaceCard"];
 const selectorsArray = [
-    ["a.NextToJump__tile--1ztZ2"]
+    [".NextToJump__nextToJump--2MlkC"]
 ];
 let onReadyScriptsArray = {
     "RaceCard": config.CUSTOM_SCRIPTS_PATHS + "onReady_clickSelector.js",
 };
 
 const hideSelectorsArray = {
-    "RaceCard": [".BetVision__wrapper--2aPxt",".LaunchButton__launchButton--37jNU"]
+    "RaceCard": [".BetVision__wrapper--2aPxt",".LaunchButton__launchButton--37jNU",".NavBar__navBar--3EpJD"]
 };
 const remSelectorsArray = {
     // "RaceCard": [".Layout__left--1ygeK",".Layout__right--2c6nk",".TopBar__topBar--3_D80",".NavBar__navBar--3EpJD",".Footer__footer--znEgZ"]
@@ -77,6 +77,7 @@ module.exports = {
                     "clickThis": clickSel,
                     "hideSelectors": hide,
                     "removeSelectors": remove,
+                    "scrollToSelector":selectorsArray[k],
                     "selectors": selectorsArray[k],
                     "selectorExpansion": false,
                     "misMatchThreshold": 0,
