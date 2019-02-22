@@ -2,11 +2,9 @@ const _ = require("lodash");
 const { getCorsHeaders } = require("./cors");
 
 class Mocker {
-    constructor(page, url, corsUrl) {
+    constructor(page) {
         this.page = page;
         this.mocks = [];
-        this.BASE_URL = url;
-        this.cors__API_BASE_URL = corsUrl;
     }
     mocker() {
         this.page.setRequestInterception(true);
@@ -20,16 +18,11 @@ class Mocker {
         });
     }
     mock(cors, url, body, status = 200, method = "GET", headers = {}) {
-        let finalUrl = this.BASE_URL.concat(url);
-        if (cors) {
-            finalUrl = this.cors__API_BASE_URL.concat(url);
-        }
-        console.log(finalUrl);
         if (body != null) {
             this.mocks = [
                 ...this.mocks,
                 {
-                    finalUrl,
+                    finalUrl: url,
                     body: _.isString(body) ? body : JSON.stringify(body),
                     status,
                     // method,

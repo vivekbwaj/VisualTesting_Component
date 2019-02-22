@@ -5,23 +5,23 @@ const chalk = require("chalk");
 let paths = setup.setPath();
 let args = config.ARGS;
 
-const test_label = ["RaceCard"];
+const test_label = ["Homepage"];
 const selectorsArray = [
-    [".NextToJump__nextToJump--2MlkC"]
+    ["document"]
 ];
 let onReadyScriptsArray = {
-    "RaceCard": config.CUSTOM_SCRIPTS_PATHS + "onReady_clickSelector.js",
+    "Homepage": config.CUSTOM_SCRIPTS_PATHS + "onReady_clickSelector.js",
 };
 
 const hideSelectorsArray = {
-    "RaceCard": [".BetVision__wrapper--2aPxt",".LaunchButton__launchButton--37jNU",".NavBar__navBar--3EpJD"]
+    "Homepage": [".BetVision__wrapper--2aPxt",".LaunchButton__launchButton--37jNU",".Carousel__carousel--2UppO",".Advertisement__advContainer--2f2zx"]
 };
 const remSelectorsArray = {
-    // "RaceCard": [".Layout__left--1ygeK",".Layout__right--2c6nk",".TopBar__topBar--3_D80",".NavBar__navBar--3EpJD",".Footer__footer--znEgZ"]
+    "Homepage": [".Advertisement__advContainer--2f2zx"]
 };
 
 const clickSelectorsArray = {
-    // "RaceCard": [".ControlBar__closeButton--2ncgf"]
+    "Homepage": [".MenuItem__chevronButton--3vJb0_desktop",".MenuItem__chevronButton--3vJb0_wide"]
 };
 
 let scenarios = [];
@@ -70,14 +70,13 @@ module.exports = {
                     "cookiePath": "backstop_data/engine_scripts/cookies.json",
                     "url": args.BS_TESTHOST + paths[k] + config.OPTIMIZELY,
                     "referenceUrl": args.BS_REFHOST + paths[k] + config.OPTIMIZELY,
-                    "onBeforeScript": config.CUSTOM_SCRIPTS_PATHS + "nextToJumpOnBefore.js",
+                    "onBeforeScript": config.CUSTOM_SCRIPTS_PATHS + "homepage.js",
                     "onReadyScript": engine_script,
                     "delay": 0,
                     "postInteractionWait": 5000,
                     "clickThis": clickSel,
                     "hideSelectors": hide,
                     "removeSelectors": remove,
-                    "scrollToSelector":selectorsArray[k],
                     "selectors": selectorsArray[k],
                     "selectorExpansion": false,
                     "misMatchThreshold": 0,
