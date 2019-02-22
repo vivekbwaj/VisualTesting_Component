@@ -9,6 +9,11 @@ const test_label = ["Homepage"];
 const selectorsArray = [
     ["document"]
 ];
+
+let onBeforeScriptsArray = {
+    "Homepage": config.CUSTOM_SCRIPTS_PATHS + "homepage.js"
+};
+
 let onReadyScriptsArray = {
     "Homepage": config.CUSTOM_SCRIPTS_PATHS + "onReady_clickSelector.js",
 };
@@ -37,6 +42,13 @@ module.exports = {
             let remove = [];
             let clickSel = "";
             let engine_script = "";
+            let engine_scriptBefore="";
+
+            for (let bS in onBeforeScriptsArray) {
+                if (bS === label) {
+                    engine_scriptBefore = onBeforeScriptsArray[bS];
+                }
+            }
 
             for (let h in hideSelectorsArray) {
                 if (h === label) {
@@ -70,7 +82,7 @@ module.exports = {
                     "cookiePath": "backstop_data/engine_scripts/cookies.json",
                     "url": args.BS_TESTHOST + paths[k] + config.OPTIMIZELY,
                     "referenceUrl": args.BS_REFHOST + paths[k] + config.OPTIMIZELY,
-                    "onBeforeScript": config.CUSTOM_SCRIPTS_PATHS + "homepage.js",
+                    "onBeforeScript": engine_scriptBefore,
                     "onReadyScript": engine_script,
                     "delay": 0,
                     "postInteractionWait": 5000,
