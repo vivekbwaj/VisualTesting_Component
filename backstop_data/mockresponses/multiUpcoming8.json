@@ -1,0 +1,700 @@
+[
+  {
+    "MasterEventId": 1216475,
+    "MasterEventName": "Races",
+    "MasterEventTypeDesc": "Racing",
+    "EventInformation": {
+      "EventId": 35441951,
+      "EventName": "Race 4 - Claiming",
+      "EventTypeId": 1,
+      "EventTypeDesc": "Thoroughbred",
+      "VenueName": "Beteasy Office",
+      "Slug": "thoroughbred-racing",
+      "IsMultiAllowed": true,
+      "AdvertisedStartTime": "2019-02-22T00:52:00Z",
+      "BettingCloseTime": "2019-02-22T00:52:00Z",
+      "IsOpenForBetting": true,
+      "RaceNumber": 4,
+      "IsJockeySilkExist": true
+    },
+    "OutcomeInformation": {
+      "OutcomeId": 3,
+      "OutcomeName": "Jaded Rose",
+      "BarrierBox": 3,
+      "BetTypes": [
+        {
+          "DividendTypeCode": "CBSP",
+          "DividendTypeDesc": "Starting Price",
+          "FixedMarketId": 164201581,
+          "IsOpenForBetting": true,
+          "MarketTypeCode": "WIN",
+          "MarketTypeDesc": "Win",
+          "Points": "0.00",
+          "Price": 3.2
+        },
+        {
+          "DividendTypeCode": "FIXED",
+          "DividendTypeDesc": "Fixed",
+          "FixedMarketId": 164201571,
+          "IsOpenForBetting": true,
+          "MarketTypeCode": "PLC",
+          "MarketTypeDesc": "Place",
+          "Points": "0.00",
+          "Price": 1.5
+        },
+        {
+          "DividendTypeCode": "FIXED",
+          "DividendTypeDesc": "Fixed",
+          "FixedMarketId": 164201581,
+          "IsOpenForBetting": true,
+          "MarketTypeCode": "WIN",
+          "MarketTypeDesc": "Win",
+          "Points": "0.00",
+          "Price": 3.2
+        }
+      ]
+    }
+  },
+  {
+    "MasterEventId": 1217174,
+    "MasterEventName": "Races",
+    "MasterEventTypeDesc": "Racing",
+    "EventInformation": {
+      "EventId": 35464284,
+      "EventName": "Race 3",
+      "EventTypeId": 3,
+      "EventTypeDesc": "Greyhounds",
+      "VenueName": "Daytona Beach",
+      "Slug": "greyhounds-racing",
+      "IsMultiAllowed": true,
+      "AdvertisedStartTime": "2019-02-22T00:53:00Z",
+      "BettingCloseTime": "2019-02-22T00:53:00Z",
+      "IsOpenForBetting": true,
+      "RaceNumber": 3,
+      "IsJockeySilkExist": false
+    },
+    "OutcomeInformation": {
+      "OutcomeId": 4,
+      "OutcomeName": "Ww Barrelin Down",
+      "BarrierBox": 4,
+      "BetTypes": [
+        {
+          "DividendTypeCode": "CBSP",
+          "DividendTypeDesc": "Starting Price",
+          "FixedMarketId": 164290404,
+          "IsOpenForBetting": true,
+          "MarketTypeCode": "WIN",
+          "MarketTypeDesc": "Win",
+          "Points": "0.00",
+          "Price": 3.6
+        },
+        {
+          "DividendTypeCode": "FIXED",
+          "DividendTypeDesc": "Fixed",
+          "FixedMarketId": 164290396,
+          "IsOpenForBetting": true,
+          "MarketTypeCode": "PLC",
+          "MarketTypeDesc": "Place",
+          "Points": "0.00",
+          "Price": 1.6
+        },
+        {
+          "DividendTypeCode": "FIXED",
+          "DividendTypeDesc": "Fixed",
+          "FixedMarketId": 164290404,
+          "IsOpenForBetting": true,
+          "MarketTypeCode": "WIN",
+          "MarketTypeDesc": "Win",
+          "Points": "0.00",
+          "Price": 3.6
+        }
+      ]
+    }
+  },
+  {
+    "MasterEventId": 1214741,
+    "MasterEventName": "Races",
+    "MasterEventTypeDesc": "Racing",
+    "EventInformation": {
+      "EventId": 35376137,
+      "EventName": "Top Cat Video (250+Rank)",
+      "EventTypeId": 3,
+      "EventTypeDesc": "Greyhounds",
+      "VenueName": "Healesville",
+      "Slug": "greyhounds-racing",
+      "IsMultiAllowed": true,
+      "AdvertisedStartTime": "2019-02-22T00:56:00Z",
+      "BettingCloseTime": "2019-02-22T00:56:00Z",
+      "IsOpenForBetting": true,
+      "RaceNumber": 1,
+      "IsJockeySilkExist": false
+    },
+    "OutcomeInformation": {
+      "OutcomeId": 5,
+      "OutcomeName": "Muza's Angel",
+      "BarrierBox": 5,
+      "BetTypes": [
+        {
+          "DividendTypeCode": "BT",
+          "DividendTypeDesc": "Best Tote",
+          "FixedMarketId": 163957336,
+          "IsOpenForBetting": true,
+          "MarketTypeCode": "PLC",
+          "MarketTypeDesc": "Place",
+          "Points": "0.00",
+          "Price": 1.26
+        },
+        {
+          "DividendTypeCode": "BT",
+          "DividendTypeDesc": "Best Tote",
+          "FixedMarketId": 163957346,
+          "IsOpenForBetting": true,
+          "MarketTypeCode": "WIN",
+          "MarketTypeDesc": "Win",
+          "Points": "0.00",
+          "Price": 2.45
+        },
+        {
+          "DividendTypeCode": "BVICNSW",
+          "DividendTypeDesc": "Vic/NSW",
+          "FixedMarketId": 163957346,
+          "IsOpenForBetting": true,
+          "MarketTypeCode": "WIN",
+          "MarketTypeDesc": "Win",
+          "Points": "0.00",
+          "Price": 2.45
+        },
+        {
+          "DividendTypeCode": "FIXED",
+          "DividendTypeDesc": "Fixed",
+          "FixedMarketId": 163957336,
+          "IsOpenForBetting": true,
+          "MarketTypeCode": "PLC",
+          "MarketTypeDesc": "Place",
+          "Points": "0.00",
+          "Price": 1.26
+        },
+        {
+          "DividendTypeCode": "FIXED",
+          "DividendTypeDesc": "Fixed",
+          "FixedMarketId": 163957346,
+          "IsOpenForBetting": true,
+          "MarketTypeCode": "WIN",
+          "MarketTypeDesc": "Win",
+          "Points": "0.00",
+          "Price": 2.45
+        },
+        {
+          "DividendTypeCode": "MIDDIV",
+          "DividendTypeDesc": "Midi Div",
+          "FixedMarketId": 163957336,
+          "IsOpenForBetting": true,
+          "MarketTypeCode": "PLC",
+          "MarketTypeDesc": "Place",
+          "Points": "0.00",
+          "Price": 1.26
+        },
+        {
+          "DividendTypeCode": "MIDDIV",
+          "DividendTypeDesc": "Midi Div",
+          "FixedMarketId": 163957346,
+          "IsOpenForBetting": true,
+          "MarketTypeCode": "WIN",
+          "MarketTypeDesc": "Win",
+          "Points": "0.00",
+          "Price": 2.45
+        }
+      ]
+    }
+  },
+  {
+    "MasterEventId": 1216476,
+    "MasterEventName": "Races",
+    "MasterEventTypeDesc": "Racing",
+    "EventInformation": {
+      "EventId": 35441985,
+      "EventName": "Race 3 - Claiming",
+      "EventTypeId": 1,
+      "EventTypeDesc": "Thoroughbred",
+      "VenueName": "Charles Town",
+      "Slug": "thoroughbred-racing",
+      "IsMultiAllowed": true,
+      "AdvertisedStartTime": "2019-02-22T00:57:00Z",
+      "BettingCloseTime": "2019-02-22T00:57:00Z",
+      "IsOpenForBetting": true,
+      "RaceNumber": 3,
+      "IsJockeySilkExist": true
+    },
+    "OutcomeInformation": {
+      "OutcomeId": 3,
+      "OutcomeName": "Twilight Appeal",
+      "BarrierBox": 3,
+      "BetTypes": [
+        {
+          "DividendTypeCode": "CBSP",
+          "DividendTypeDesc": "Starting Price",
+          "FixedMarketId": 164201828,
+          "IsOpenForBetting": true,
+          "MarketTypeCode": "WIN",
+          "MarketTypeDesc": "Win",
+          "Points": "0.00",
+          "Price": 2.4
+        },
+        {
+          "DividendTypeCode": "FIXED",
+          "DividendTypeDesc": "Fixed",
+          "FixedMarketId": 164201820,
+          "IsOpenForBetting": true,
+          "MarketTypeCode": "PLC",
+          "MarketTypeDesc": "Place",
+          "Points": "0.00",
+          "Price": 1.45
+        },
+        {
+          "DividendTypeCode": "FIXED",
+          "DividendTypeDesc": "Fixed",
+          "FixedMarketId": 164201828,
+          "IsOpenForBetting": true,
+          "MarketTypeCode": "WIN",
+          "MarketTypeDesc": "Win",
+          "Points": "0.00",
+          "Price": 2.4
+        }
+      ]
+    }
+  },
+  {
+    "MasterEventId": 1216353,
+    "MasterEventName": "Races",
+    "MasterEventTypeDesc": "Racing",
+    "EventInformation": {
+      "EventId": 35425323,
+      "EventName": "Amber Cleaning Services Sprint",
+      "EventTypeId": 3,
+      "EventTypeDesc": "Greyhounds",
+      "VenueName": "Addington",
+      "Slug": "greyhounds-racing",
+      "IsMultiAllowed": true,
+      "AdvertisedStartTime": "2019-02-22T00:59:00Z",
+      "BettingCloseTime": "2019-02-22T00:59:00Z",
+      "IsOpenForBetting": true,
+      "RaceNumber": 7,
+      "IsJockeySilkExist": false
+    },
+    "OutcomeInformation": {
+      "OutcomeId": 1,
+      "OutcomeName": "Mitcham Quinn",
+      "BarrierBox": 1,
+      "BetTypes": [
+        {
+          "DividendTypeCode": "BT",
+          "DividendTypeDesc": "Best Tote",
+          "FixedMarketId": 164141336,
+          "IsOpenForBetting": true,
+          "MarketTypeCode": "PLC",
+          "MarketTypeDesc": "Place",
+          "Points": "0.00",
+          "Price": 1.05
+        },
+        {
+          "DividendTypeCode": "BT",
+          "DividendTypeDesc": "Best Tote",
+          "FixedMarketId": 164141346,
+          "IsOpenForBetting": true,
+          "MarketTypeCode": "WIN",
+          "MarketTypeDesc": "Win",
+          "Points": "0.00",
+          "Price": 1.6
+        },
+        {
+          "DividendTypeCode": "FIXED",
+          "DividendTypeDesc": "Fixed",
+          "FixedMarketId": 164141336,
+          "IsOpenForBetting": true,
+          "MarketTypeCode": "PLC",
+          "MarketTypeDesc": "Place",
+          "Points": "0.00",
+          "Price": 1.05
+        },
+        {
+          "DividendTypeCode": "FIXED",
+          "DividendTypeDesc": "Fixed",
+          "FixedMarketId": 164141346,
+          "IsOpenForBetting": true,
+          "MarketTypeCode": "WIN",
+          "MarketTypeDesc": "Win",
+          "Points": "0.00",
+          "Price": 1.6
+        },
+        {
+          "DividendTypeCode": "NSW",
+          "DividendTypeDesc": "NSW Tote",
+          "FixedMarketId": 164141336,
+          "IsOpenForBetting": true,
+          "MarketTypeCode": "PLC",
+          "MarketTypeDesc": "Place",
+          "Points": "0.00",
+          "Price": 1.05
+        },
+        {
+          "DividendTypeCode": "NSW",
+          "DividendTypeDesc": "NSW Tote",
+          "FixedMarketId": 164141346,
+          "IsOpenForBetting": true,
+          "MarketTypeCode": "WIN",
+          "MarketTypeDesc": "Win",
+          "Points": "0.00",
+          "Price": 1.6
+        },
+        {
+          "DividendTypeCode": "Tatts",
+          "DividendTypeDesc": "Tatts",
+          "FixedMarketId": 164141336,
+          "IsOpenForBetting": true,
+          "MarketTypeCode": "PLC",
+          "MarketTypeDesc": "Place",
+          "Points": "0.00",
+          "Price": 1.05
+        },
+        {
+          "DividendTypeCode": "Tatts",
+          "DividendTypeDesc": "Tatts",
+          "FixedMarketId": 164141346,
+          "IsOpenForBetting": true,
+          "MarketTypeCode": "WIN",
+          "MarketTypeDesc": "Win",
+          "Points": "0.00",
+          "Price": 1.6
+        },
+        {
+          "DividendTypeCode": "VIC",
+          "DividendTypeDesc": "VIC Tote",
+          "FixedMarketId": 164141336,
+          "IsOpenForBetting": true,
+          "MarketTypeCode": "PLC",
+          "MarketTypeDesc": "Place",
+          "Points": "0.00",
+          "Price": 1.05
+        },
+        {
+          "DividendTypeCode": "VIC",
+          "DividendTypeDesc": "VIC Tote",
+          "FixedMarketId": 164141346,
+          "IsOpenForBetting": true,
+          "MarketTypeCode": "WIN",
+          "MarketTypeDesc": "Win",
+          "Points": "0.00",
+          "Price": 1.6
+        },
+        {
+          "DividendTypeCode": "VIC+5",
+          "DividendTypeDesc": "VIC + 5%",
+          "FixedMarketId": 164141336,
+          "IsOpenForBetting": true,
+          "MarketTypeCode": "PLC",
+          "MarketTypeDesc": "Place",
+          "Points": "0.00",
+          "Price": 1.05
+        },
+        {
+          "DividendTypeCode": "VIC+5",
+          "DividendTypeDesc": "VIC + 5%",
+          "FixedMarketId": 164141346,
+          "IsOpenForBetting": true,
+          "MarketTypeCode": "WIN",
+          "MarketTypeDesc": "Win",
+          "Points": "0.00",
+          "Price": 1.6
+        }
+      ]
+    }
+  },
+  {
+    "MasterEventId": 1217724,
+    "MasterEventName": "Races",
+    "MasterEventTypeDesc": "Racing",
+    "EventInformation": {
+      "EventId": 35471471,
+      "EventName": "5f HCap",
+      "EventTypeId": 1,
+      "EventTypeDesc": "Thoroughbred",
+      "VenueName": "Hipodromo Chile",
+      "Slug": "thoroughbred-racing",
+      "IsMultiAllowed": true,
+      "AdvertisedStartTime": "2019-02-22T01:01:00Z",
+      "BettingCloseTime": "2019-02-22T01:31:00Z",
+      "IsOpenForBetting": true,
+      "RaceNumber": 3,
+      "IsJockeySilkExist": false
+    },
+    "OutcomeInformation": {
+      "OutcomeId": 10,
+      "OutcomeName": "Pina Y Mango",
+      "BarrierBox": 10,
+      "BetTypes": [
+        {
+          "DividendTypeCode": "FIXED",
+          "DividendTypeDesc": "Fixed",
+          "FixedMarketId": 164465695,
+          "IsOpenForBetting": true,
+          "MarketTypeCode": "WIN",
+          "MarketTypeDesc": "Win",
+          "Points": "0.00",
+          "Price": 3.75
+        },
+        {
+          "DividendTypeCode": "SP",
+          "DividendTypeDesc": "Starting Price",
+          "FixedMarketId": 164465695,
+          "IsOpenForBetting": true,
+          "MarketTypeCode": "WIN",
+          "MarketTypeDesc": "Win",
+          "Points": "0.00",
+          "Price": 3.75
+        }
+      ]
+    }
+  },
+  {
+    "MasterEventId": 1213476,
+    "MasterEventName": "Races",
+    "MasterEventTypeDesc": "Racing",
+    "EventInformation": {
+      "EventId": 35341905,
+      "EventName": "The Bunyip Maiden Stake Pr1",
+      "EventTypeId": 3,
+      "EventTypeDesc": "Greyhounds",
+      "VenueName": "Gawler",
+      "Slug": "greyhounds-racing",
+      "IsMultiAllowed": true,
+      "AdvertisedStartTime": "2019-02-22T01:02:00Z",
+      "BettingCloseTime": "2019-02-22T01:02:00Z",
+      "IsOpenForBetting": true,
+      "RaceNumber": 1,
+      "IsJockeySilkExist": false
+    },
+    "OutcomeInformation": {
+      "OutcomeId": 6,
+      "OutcomeName": "Phosphenes",
+      "BarrierBox": 6,
+      "BetTypes": [
+        {
+          "DividendTypeCode": "BT",
+          "DividendTypeDesc": "Best Tote",
+          "FixedMarketId": 163827962,
+          "IsOpenForBetting": true,
+          "MarketTypeCode": "PLC",
+          "MarketTypeDesc": "Place",
+          "Points": "0.00",
+          "Price": 1.05
+        },
+        {
+          "DividendTypeCode": "BT",
+          "DividendTypeDesc": "Best Tote",
+          "FixedMarketId": 163827970,
+          "IsOpenForBetting": true,
+          "MarketTypeCode": "WIN",
+          "MarketTypeDesc": "Win",
+          "Points": "0.00",
+          "Price": 1.65
+        },
+        {
+          "DividendTypeCode": "BVICNSW",
+          "DividendTypeDesc": "Vic/NSW",
+          "FixedMarketId": 163827970,
+          "IsOpenForBetting": true,
+          "MarketTypeCode": "WIN",
+          "MarketTypeDesc": "Win",
+          "Points": "0.00",
+          "Price": 1.65
+        },
+        {
+          "DividendTypeCode": "FIXED",
+          "DividendTypeDesc": "Fixed",
+          "FixedMarketId": 163827962,
+          "IsOpenForBetting": true,
+          "MarketTypeCode": "PLC",
+          "MarketTypeDesc": "Place",
+          "Points": "0.00",
+          "Price": 1.05
+        },
+        {
+          "DividendTypeCode": "FIXED",
+          "DividendTypeDesc": "Fixed",
+          "FixedMarketId": 163827970,
+          "IsOpenForBetting": true,
+          "MarketTypeCode": "WIN",
+          "MarketTypeDesc": "Win",
+          "Points": "0.00",
+          "Price": 1.65
+        },
+        {
+          "DividendTypeCode": "MIDDIV",
+          "DividendTypeDesc": "Midi Div",
+          "FixedMarketId": 163827962,
+          "IsOpenForBetting": true,
+          "MarketTypeCode": "PLC",
+          "MarketTypeDesc": "Place",
+          "Points": "0.00",
+          "Price": 1.05
+        },
+        {
+          "DividendTypeCode": "MIDDIV",
+          "DividendTypeDesc": "Midi Div",
+          "FixedMarketId": 163827970,
+          "IsOpenForBetting": true,
+          "MarketTypeCode": "WIN",
+          "MarketTypeDesc": "Win",
+          "Points": "0.00",
+          "Price": 1.65
+        }
+      ]
+    }
+  },
+  {
+    "MasterEventId": 1215621,
+    "MasterEventName": "Races",
+    "MasterEventTypeDesc": "Racing",
+    "EventInformation": {
+      "EventId": 35416115,
+      "EventName": "Clare Yardley Barrister-Bm65",
+      "EventTypeId": 1,
+      "EventTypeDesc": "Thoroughbred",
+      "VenueName": "Riccarton",
+      "Slug": "thoroughbred-racing",
+      "IsMultiAllowed": true,
+      "AdvertisedStartTime": "2019-02-22T01:07:00Z",
+      "BettingCloseTime": "2019-02-22T01:07:00Z",
+      "IsOpenForBetting": true,
+      "RaceNumber": 4,
+      "IsJockeySilkExist": true
+    },
+    "OutcomeInformation": {
+      "OutcomeId": 7,
+      "OutcomeName": "Lady Byron",
+      "BarrierBox": 7,
+      "BetTypes": [
+        {
+          "DividendTypeCode": "BT",
+          "DividendTypeDesc": "Best Tote",
+          "FixedMarketId": 164106901,
+          "IsOpenForBetting": true,
+          "MarketTypeCode": "PLC",
+          "MarketTypeDesc": "Place",
+          "Points": "0.00",
+          "Price": 1.45
+        },
+        {
+          "DividendTypeCode": "BT",
+          "DividendTypeDesc": "Best Tote",
+          "FixedMarketId": 164106909,
+          "IsOpenForBetting": true,
+          "MarketTypeCode": "WIN",
+          "MarketTypeDesc": "Win",
+          "Points": "0.00",
+          "Price": 3.5
+        },
+        {
+          "DividendTypeCode": "FIXED",
+          "DividendTypeDesc": "Fixed",
+          "FixedMarketId": 164106901,
+          "IsOpenForBetting": true,
+          "MarketTypeCode": "PLC",
+          "MarketTypeDesc": "Place",
+          "Points": "0.00",
+          "Price": 1.45
+        },
+        {
+          "DividendTypeCode": "FIXED",
+          "DividendTypeDesc": "Fixed",
+          "FixedMarketId": 164106909,
+          "IsOpenForBetting": true,
+          "MarketTypeCode": "WIN",
+          "MarketTypeDesc": "Win",
+          "Points": "0.00",
+          "Price": 3.5
+        },
+        {
+          "DividendTypeCode": "NSW",
+          "DividendTypeDesc": "NSW Tote",
+          "FixedMarketId": 164106901,
+          "IsOpenForBetting": true,
+          "MarketTypeCode": "PLC",
+          "MarketTypeDesc": "Place",
+          "Points": "0.00",
+          "Price": 1.45
+        },
+        {
+          "DividendTypeCode": "NSW",
+          "DividendTypeDesc": "NSW Tote",
+          "FixedMarketId": 164106909,
+          "IsOpenForBetting": true,
+          "MarketTypeCode": "WIN",
+          "MarketTypeDesc": "Win",
+          "Points": "0.00",
+          "Price": 3.5
+        },
+        {
+          "DividendTypeCode": "Tatts",
+          "DividendTypeDesc": "Tatts",
+          "FixedMarketId": 164106901,
+          "IsOpenForBetting": true,
+          "MarketTypeCode": "PLC",
+          "MarketTypeDesc": "Place",
+          "Points": "0.00",
+          "Price": 1.45
+        },
+        {
+          "DividendTypeCode": "Tatts",
+          "DividendTypeDesc": "Tatts",
+          "FixedMarketId": 164106909,
+          "IsOpenForBetting": true,
+          "MarketTypeCode": "WIN",
+          "MarketTypeDesc": "Win",
+          "Points": "0.00",
+          "Price": 3.5
+        },
+        {
+          "DividendTypeCode": "VIC",
+          "DividendTypeDesc": "VIC Tote",
+          "FixedMarketId": 164106901,
+          "IsOpenForBetting": true,
+          "MarketTypeCode": "PLC",
+          "MarketTypeDesc": "Place",
+          "Points": "0.00",
+          "Price": 1.45
+        },
+        {
+          "DividendTypeCode": "VIC",
+          "DividendTypeDesc": "VIC Tote",
+          "FixedMarketId": 164106909,
+          "IsOpenForBetting": true,
+          "MarketTypeCode": "WIN",
+          "MarketTypeDesc": "Win",
+          "Points": "0.00",
+          "Price": 3.5
+        },
+        {
+          "DividendTypeCode": "VIC+5",
+          "DividendTypeDesc": "VIC + 5%",
+          "FixedMarketId": 164106901,
+          "IsOpenForBetting": true,
+          "MarketTypeCode": "PLC",
+          "MarketTypeDesc": "Place",
+          "Points": "0.00",
+          "Price": 1.45
+        },
+        {
+          "DividendTypeCode": "VIC+5",
+          "DividendTypeDesc": "VIC + 5%",
+          "FixedMarketId": 164106909,
+          "IsOpenForBetting": true,
+          "MarketTypeCode": "WIN",
+          "MarketTypeDesc": "Win",
+          "Points": "0.00",
+          "Price": 3.5
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,204 @@
+{
+  "result": [
+    {
+      "id": 15329100,
+      "masterEventId": 1213296,
+      "eventId": 35504963,
+      "masterCategoryId": 37,
+      "homeTeam": "WASHINGTON WIZARDS",
+      "awayTeam": "INDIANA PACERS",
+      "startTime": "2019-02-24T00:05:00.000Z",
+      "isLive": false
+    },
+    {
+      "id": 15329162,
+      "masterEventId": 1209509,
+      "eventId": 35456061,
+      "masterCategoryId": 37,
+      "homeTeam": "MILWAUKEE BUCKS",
+      "awayTeam": "BOSTON CELTICS",
+      "startTime": "2019-02-22T01:05:00.000Z",
+      "isLive": false
+    },
+    {
+      "id": 15329178,
+      "masterEventId": 1213302,
+      "eventId": 35504987,
+      "masterCategoryId": 37,
+      "homeTeam": "CHICAGO BULLS",
+      "awayTeam": "BOSTON CELTICS",
+      "startTime": "2019-02-24T01:05:00.000Z",
+      "isLive": false
+    },
+    {
+      "id": 15329280,
+      "masterEventId": 1213287,
+      "eventId": 35382743,
+      "masterCategoryId": 37,
+      "homeTeam": "NEW YORK KNICKS",
+      "awayTeam": "MINNESOTA TIMBERWOLVES",
+      "startTime": "2019-02-23T00:30:00.000Z",
+      "isLive": false
+    },
+    {
+      "id": 15329398,
+      "masterEventId": 1213284,
+      "eventId": 35382718,
+      "masterCategoryId": 37,
+      "homeTeam": "ORLANDO MAGIC",
+      "awayTeam": "CHICAGO BULLS",
+      "startTime": "2019-02-23T00:00:00.000Z",
+      "isLive": false
+    },
+    {
+      "id": 15329488,
+      "masterEventId": 1213306,
+      "eventId": 35504900,
+      "masterCategoryId": 37,
+      "homeTeam": "ATLANTA HAWKS",
+      "awayTeam": "PHOENIX SUNS",
+      "startTime": "2019-02-24T00:05:00.000Z",
+      "isLive": false
+    },
+    {
+      "id": 15329490,
+      "masterEventId": 1213277,
+      "eventId": 35502560,
+      "masterCategoryId": 37,
+      "homeTeam": "OKLAHOMA CITY THUNDER",
+      "awayTeam": "UTAH JAZZ",
+      "startTime": "2019-02-23T02:35:00.000Z",
+      "isLive": false
+    },
+    {
+      "id": 15329820,
+      "masterEventId": 1209512,
+      "eventId": 35471309,
+      "masterCategoryId": 37,
+      "homeTeam": "PHILADELPHIA 76ERS",
+      "awayTeam": "MIAMI HEAT",
+      "startTime": "2019-02-22T00:05:00.000Z",
+      "isLive": true
+    },
+    {
+      "id": 15329822,
+      "masterEventId": 1213299,
+      "eventId": 35504951,
+      "masterCategoryId": 37,
+      "homeTeam": "NEW ORLEANS PELICANS",
+      "awayTeam": "LOS ANGELES LAKERS",
+      "startTime": "2019-02-24T00:05:00.000Z",
+      "isLive": false
+    },
+    {
+      "id": 15329956,
+      "masterEventId": 1213303,
+      "eventId": 35505018,
+      "masterCategoryId": 37,
+      "homeTeam": "UTAH JAZZ",
+      "awayTeam": "DALLAS MAVERICKS",
+      "startTime": "2019-02-24T03:05:00.000Z",
+      "isLive": false
+    },
+    {
+      "id": 15329960,
+      "masterEventId": 1213280,
+      "eventId": 35382731,
+      "masterCategoryId": 37,
+      "homeTeam": "INDIANA PACERS",
+      "awayTeam": "NEW ORLEANS PELICANS",
+      "startTime": "2019-02-23T00:00:00.000Z",
+      "isLive": false
+    },
+    {
+      "id": 15330020,
+      "masterEventId": 1213301,
+      "eventId": 35505072,
+      "masterCategoryId": 37,
+      "homeTeam": "MILWAUKEE BUCKS",
+      "awayTeam": "MINNESOTA TIMBERWOLVES",
+      "startTime": "2019-02-24T01:35:00.000Z",
+      "isLive": false
+    },
+    {
+      "id": 15330052,
+      "masterEventId": 1209511,
+      "eventId": 35456010,
+      "masterCategoryId": 37,
+      "homeTeam": "CLEVELAND CAVALIERS",
+      "awayTeam": "PHOENIX SUNS",
+      "startTime": "2019-02-22T00:05:00.000Z",
+      "isLive": true
+    },
+    {
+      "id": 15330180,
+      "masterEventId": 1213271,
+      "eventId": 35382725,
+      "masterCategoryId": 37,
+      "homeTeam": "TORONTO RAPTORS",
+      "awayTeam": "SAN ANTONIO SPURS",
+      "startTime": "2019-02-23T00:00:00.000Z",
+      "isLive": false
+    },
+    {
+      "id": 15330346,
+      "masterEventId": 1213311,
+      "eventId": 35504995,
+      "masterCategoryId": 37,
+      "homeTeam": "OKLAHOMA CITY THUNDER",
+      "awayTeam": "SACRAMENTO KINGS",
+      "startTime": "2019-02-24T01:05:00.000Z",
+      "isLive": false
+    },
+    {
+      "id": 15330466,
+      "masterEventId": 1213286,
+      "eventId": 35382728,
+      "masterCategoryId": 37,
+      "homeTeam": "CHARLOTTE HORNETS",
+      "awayTeam": "WASHINGTON WIZARDS",
+      "startTime": "2019-02-23T00:00:00.000Z",
+      "isLive": false
+    },
+    {
+      "id": 15330526,
+      "masterEventId": 1213281,
+      "eventId": 35382896,
+      "masterCategoryId": 37,
+      "homeTeam": "DALLAS MAVERICKS",
+      "awayTeam": "DENVER NUGGETS",
+      "startTime": "2019-02-23T01:30:00.000Z",
+      "isLive": false
+    },
+    {
+      "id": 15330658,
+      "masterEventId": 1213297,
+      "eventId": 35504931,
+      "masterCategoryId": 37,
+      "homeTeam": "CHARLOTTE HORNETS",
+      "awayTeam": "BROOKLYN NETS",
+      "startTime": "2019-02-24T00:05:00.000Z",
+      "isLive": false
+    },
+    {
+      "id": 15330676,
+      "masterEventId": 1209513,
+      "eventId": 35158736,
+      "masterCategoryId": 37,
+      "homeTeam": "LOS ANGELES LAKERS",
+      "awayTeam": "HOUSTON ROCKETS",
+      "startTime": "2019-02-22T03:35:00.000Z",
+      "isLive": false
+    },
+    {
+      "id": 15330686,
+      "masterEventId": 1213285,
+      "eventId": 35382884,
+      "masterCategoryId": 37,
+      "homeTeam": "MEMPHIS GRIZZLIES",
+      "awayTeam": "LOS ANGELES CLIPPERS",
+      "startTime": "2019-02-23T01:00:00.000Z",
+      "isLive": false
+    }
+  ]
+}

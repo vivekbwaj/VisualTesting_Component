@@ -1,0 +1,973 @@
+{
+  "MultiCategories": [
+    {
+      "DisplayName": "Next Up",
+      "MultiCategoryID": 0,
+      "IsNextUp": true
+    },
+    {
+      "DisplayName": "NBA Mocked",
+      "EventType": "Basketball",
+      "MasterCategory": "NBA",
+      "Category": "NBA Matches",
+      "MultiCategoryID": 82
+    },
+    {
+      "DisplayName": "ATP Tour",
+      "EventType": "Tennis",
+      "MasterCategory": "ATP Tour",
+      "MultiCategoryID": 80,
+      "IsNextUp": true
+    },
+    {
+      "DisplayName": "WTA Tour",
+      "EventType": "Tennis",
+      "MasterCategory": "WTA Tour",
+      "MultiCategoryID": 49,
+      "IsNextUp": true
+    },
+    {
+      "DisplayName": "NHL",
+      "EventType": "Ice Hockey",
+      "MasterCategory": "NHL",
+      "Category": "Matches",
+      "MultiCategoryID": 30
+    },
+    {
+      "DisplayName": "College Basketball",
+      "EventType": "Basketball",
+      "MasterCategory": "NCAA",
+      "Category": "NCAA  Matches",
+      "MultiCategoryID": 21
+    },
+    {
+      "DisplayName": "Rugby Union",
+      "EventType": "Rugby Union",
+      "MultiCategoryID": 28,
+      "IsNextUp": true
+    },
+    {
+      "DisplayName": "Champions League",
+      "EventType": "Soccer",
+      "MasterCategory": "UEFA Competitions",
+      "Category": "Champions League Matches",
+      "MultiCategoryID": 70
+    },
+    {
+      "DisplayName": "EPL",
+      "EventType": "Soccer",
+      "MasterCategory": "United Kingdom",
+      "Category": "EPL Matches",
+      "MultiCategoryID": 10
+    },
+    {
+      "DisplayName": "A-League",
+      "EventType": "Soccer",
+      "MasterCategory": "Australia",
+      "Category": "A-League Matches",
+      "MultiCategoryID": 60
+    },
+    {
+      "DisplayName": "La Liga",
+      "EventType": "Soccer",
+      "MasterCategory": "Spain",
+      "Category": "La Liga Matches",
+      "MultiCategoryID": 44
+    },
+    {
+      "DisplayName": "Bundesliga",
+      "EventType": "Soccer",
+      "MasterCategory": "Germany",
+      "Category": "Bundesliga Matches",
+      "MultiCategoryID": 76
+    },
+    {
+      "DisplayName": "Serie A",
+      "EventType": "Soccer",
+      "MasterCategory": "Italy",
+      "Category": "Serie A Matches",
+      "MultiCategoryID": 45
+    },
+    {
+      "DisplayName": "Ligue 1",
+      "EventType": "Soccer",
+      "MasterCategory": "France",
+      "Category": "French Ligue 1 Matches",
+      "MultiCategoryID": 72
+    },
+    {
+      "DisplayName": "AFLW",
+      "EventType": "Australian Rules",
+      "MasterCategory": "AFLW",
+      "MultiCategoryID": 94,
+      "IsNextUp": true
+    },
+    {
+      "DisplayName": "Basketball",
+      "EventType": "Basketball",
+      "MultiCategoryID": 36,
+      "IsNextUp": true
+    },
+    {
+      "DisplayName": "Soccer",
+      "EventType": "Soccer",
+      "MultiCategoryID": 11,
+      "IsNextUp": true
+    },
+    {
+      "DisplayName": "Tennis",
+      "EventType": "Tennis",
+      "MultiCategoryID": 16,
+      "IsNextUp": true
+    },
+    {
+      "DisplayName": "Cricket",
+      "EventType": "Cricket",
+      "MultiCategoryID": 26,
+      "IsNextUp": true
+    },
+    {
+      "DisplayName": "Darts",
+      "EventType": "Darts",
+      "MultiCategoryID": 59,
+      "IsNextUp": true
+    },
+    {
+      "DisplayName": "eSports",
+      "EventType": "Esports",
+      "MultiCategoryID": 34,
+      "IsNextUp": true
+    },
+    {
+      "DisplayName": "HandBall",
+      "EventType": "Handball",
+      "MasterCategory": "Competition",
+      "Category": "Tournament",
+      "MultiCategoryID": 116
+    },
+    {
+      "DisplayName": "Ice Hockey",
+      "EventType": "Ice Hockey",
+      "MultiCategoryID": 31,
+      "IsNextUp": true
+    },
+    {
+      "DisplayName": "Snooker",
+      "EventType": "Snooker",
+      "MasterCategory": "Competition",
+      "Category": "Match",
+      "MultiCategoryID": 117
+    },
+    {
+      "DisplayName": "Volleyball",
+      "EventType": "Volleyball",
+      "MultiCategoryID": 19,
+      "IsNextUp": true
+    }
+  ],
+  "MultiBetGroups": [
+    {
+      "DisplayName": "Next Up",
+      "SportsEvents": [
+        {
+          "MasterEventID": 1209944,
+          "CategoryID": 6017,
+          "EventTypeID": 100,
+          "MasterEventName": "Sporting Kansas City v Deportivo Toluca FC",
+          "CategoryName": "CONCACAF Champions League Matches",
+          "MasterCategoryID": 18,
+          "MasterCategoryName": "Americas",
+          "AdvertisedStartTime": "2019-02-22T01:00:00Z",
+          "FeaturedMarket": {
+            "EventID": 35481496,
+            "EventName": "Win-Draw-Win",
+            "AdvertisedStartTime": "2019-02-22T01:00:00Z",
+            "IsMultiAllowed": true,
+            "Outcomes": [
+              {
+                "FixedMarketID": 164361860,
+                "OutcomeID": 1,
+                "OutcomeName": "Sporting Kansas City",
+                "Price": 2.22,
+                "MarketTypeCode": "WIN",
+                "BetDetailTypeCode": "WIN",
+                "DividendTypeCode": "FIXED",
+                "OutcomeImage": "mc/18/Sporting_Kansas"
+              },
+              {
+                "FixedMarketID": 164361861,
+                "OutcomeID": 2,
+                "OutcomeName": "Draw",
+                "Price": 3.1,
+                "MarketTypeCode": "WIN",
+                "BetDetailTypeCode": "WIN",
+                "DividendTypeCode": "FIXED"
+              },
+              {
+                "FixedMarketID": 164361862,
+                "OutcomeID": 3,
+                "OutcomeName": "Deportivo Toluca FC",
+                "Price": 2.94,
+                "MarketTypeCode": "WIN",
+                "BetDetailTypeCode": "WIN",
+                "DividendTypeCode": "FIXED",
+                "OutcomeImage": "et/100/df_soccer_right"
+              }
+            ]
+          }
+        },
+        {
+          "MasterEventID": 1210175,
+          "CategoryID": 9221,
+          "EventTypeID": 111,
+          "MasterEventName": "San Jose Barracuda @ Iowa Wild",
+          "CategoryName": "AHL Matches",
+          "MasterCategoryID": 215,
+          "MasterCategoryName": "AHL",
+          "AdvertisedStartTime": "2019-02-22T01:00:00Z",
+          "FeaturedMarket": {
+            "EventID": 35465605,
+            "EventName": "H2H",
+            "AdvertisedStartTime": "2019-02-22T01:00:00Z",
+            "IsMultiAllowed": true,
+            "Outcomes": [
+              {
+                "FixedMarketID": 164296061,
+                "OutcomeID": 1,
+                "OutcomeName": "Iowa Wild",
+                "Price": 1.8,
+                "MarketTypeCode": "WIN",
+                "BetDetailTypeCode": "WIN",
+                "DividendTypeCode": "FIXED",
+                "OutcomeImage": "et/111/df_icehockey_left"
+              },
+              {
+                "FixedMarketID": 164296062,
+                "OutcomeID": 2,
+                "OutcomeName": "San Jose Barracuda",
+                "Price": 1.95,
+                "MarketTypeCode": "WIN",
+                "BetDetailTypeCode": "WIN",
+                "DividendTypeCode": "FIXED",
+                "OutcomeImage": "et/111/df_icehockey_right"
+              }
+            ]
+          }
+        },
+        {
+          "MasterEventID": 1210181,
+          "CategoryID": 6795,
+          "EventTypeID": 111,
+          "MasterEventName": "Los Angeles Kings @ Nashville Predators",
+          "CategoryName": "NHL Matches",
+          "MasterCategoryID": 154,
+          "MasterCategoryName": "NHL",
+          "AdvertisedStartTime": "2019-02-22T01:00:00Z",
+          "FeaturedMarket": {
+            "EventID": 35427384,
+            "EventName": "H2H",
+            "AdvertisedStartTime": "2019-02-22T01:00:00Z",
+            "IsMultiAllowed": true,
+            "EventRule": "Includes Overtime",
+            "Outcomes": [
+              {
+                "FixedMarketID": 164149042,
+                "OutcomeID": 1,
+                "OutcomeName": "Nashville Predators",
+                "Price": 1.44,
+                "MarketTypeCode": "WIN",
+                "BetDetailTypeCode": "WIN",
+                "DividendTypeCode": "FIXED",
+                "OutcomeImage": "mc/154/Nashville_Predators"
+              },
+              {
+                "FixedMarketID": 164149043,
+                "OutcomeID": 2,
+                "OutcomeName": "Los Angeles Kings",
+                "Price": 2.88,
+                "MarketTypeCode": "WIN",
+                "BetDetailTypeCode": "WIN",
+                "DividendTypeCode": "FIXED",
+                "OutcomeImage": "mc/154/Los_Angeles_Kings"
+              }
+            ]
+          }
+        },
+        {
+          "MasterEventID": 1212275,
+          "CategoryID": 9689,
+          "EventTypeID": 107,
+          "MasterEventName": "Southeast Missouri State Redhawks @ Austin Peay Governors",
+          "CategoryName": "NCAA Matches",
+          "MasterCategoryID": 222,
+          "MasterCategoryName": "NCAA",
+          "AdvertisedStartTime": "2019-02-22T01:00:00Z",
+          "FeaturedMarket": {
+            "EventID": 35464311,
+            "EventName": "Line",
+            "AdvertisedStartTime": "2019-02-22T01:00:00Z",
+            "IsMultiAllowed": true,
+            "Outcomes": [
+              {
+                "FixedMarketID": 164290632,
+                "OutcomeID": 1,
+                "OutcomeName": "Austin Peay Governors",
+                "Price": 1.85,
+                "MarketTypeCode": "HCWEST",
+                "BetDetailTypeCode": "HC",
+                "DividendTypeCode": "FIXED",
+                "Points": -12.5,
+                "OutcomeImage": "et/107/df_basketball_left"
+              },
+              {
+                "FixedMarketID": 164290633,
+                "OutcomeID": 2,
+                "OutcomeName": "Southeast Missouri State Redhawks",
+                "Price": 1.96,
+                "MarketTypeCode": "HCWEST",
+                "BetDetailTypeCode": "HC",
+                "DividendTypeCode": "FIXED",
+                "Points": 12.5,
+                "OutcomeImage": "et/107/df_basketball_right"
+              }
+            ]
+          }
+        },
+        {
+          "MasterEventID": 1212303,
+          "CategoryID": 9689,
+          "EventTypeID": 107,
+          "MasterEventName": "Louisiana Monroe Warhawks @ Texas State Bobcats",
+          "CategoryName": "NCAA Matches",
+          "MasterCategoryID": 222,
+          "MasterCategoryName": "NCAA",
+          "AdvertisedStartTime": "2019-02-22T01:00:00Z",
+          "FeaturedMarket": {
+            "EventID": 35462845,
+            "EventName": "Line",
+            "AdvertisedStartTime": "2019-02-22T01:00:00Z",
+            "IsMultiAllowed": true,
+            "Outcomes": [
+              {
+                "FixedMarketID": 164284194,
+                "OutcomeID": 1,
+                "OutcomeName": "Texas State Bobcats",
+                "Price": 1.89,
+                "MarketTypeCode": "HCWEST",
+                "BetDetailTypeCode": "HC",
+                "DividendTypeCode": "FIXED",
+                "Points": -4.5,
+                "OutcomeImage": "et/107/df_basketball_left"
+              },
+              {
+                "FixedMarketID": 164284195,
+                "OutcomeID": 2,
+                "OutcomeName": "Louisiana Monroe Warhawks",
+                "Price": 1.92,
+                "MarketTypeCode": "HCWEST",
+                "BetDetailTypeCode": "HC",
+                "DividendTypeCode": "FIXED",
+                "Points": 4.5,
+                "OutcomeImage": "et/107/df_basketball_right"
+              }
+            ]
+          }
+        },
+        {
+          "MasterEventID": 1212305,
+          "CategoryID": 9689,
+          "EventTypeID": 107,
+          "MasterEventName": "Tennessee Martin Skyhawks @ Murray State Racers",
+          "CategoryName": "NCAA Matches",
+          "MasterCategoryID": 222,
+          "MasterCategoryName": "NCAA",
+          "AdvertisedStartTime": "2019-02-22T01:00:00Z",
+          "FeaturedMarket": {
+            "EventID": 35464244,
+            "EventName": "Line",
+            "AdvertisedStartTime": "2019-02-22T01:00:00Z",
+            "IsMultiAllowed": true,
+            "Outcomes": [
+              {
+                "FixedMarketID": 164290268,
+                "OutcomeID": 1,
+                "OutcomeName": "Murray State Racers",
+                "Price": 1.87,
+                "MarketTypeCode": "HCWEST",
+                "BetDetailTypeCode": "HC",
+                "DividendTypeCode": "FIXED",
+                "Points": -14.5,
+                "OutcomeImage": "et/107/df_basketball_left"
+              },
+              {
+                "FixedMarketID": 164290269,
+                "OutcomeID": 2,
+                "OutcomeName": "Tennessee Martin Skyhawks",
+                "Price": 1.94,
+                "MarketTypeCode": "HCWEST",
+                "BetDetailTypeCode": "HC",
+                "DividendTypeCode": "FIXED",
+                "Points": 14.5,
+                "OutcomeImage": "et/107/df_basketball_right"
+              }
+            ]
+          }
+        },
+        {
+          "MasterEventID": 1212306,
+          "CategoryID": 9689,
+          "EventTypeID": 107,
+          "MasterEventName": "UL Lafayette Ragin' Cajuns @ Texas Arlington Mavericks",
+          "CategoryName": "NCAA Matches",
+          "MasterCategoryID": 222,
+          "MasterCategoryName": "NCAA",
+          "AdvertisedStartTime": "2019-02-22T01:00:00Z",
+          "FeaturedMarket": {
+            "EventID": 35462852,
+            "EventName": "Line",
+            "AdvertisedStartTime": "2019-02-22T01:00:00Z",
+            "IsMultiAllowed": true,
+            "Outcomes": [
+              {
+                "FixedMarketID": 164284209,
+                "OutcomeID": 1,
+                "OutcomeName": "Texas Arlington Mavericks",
+                "Price": 1.86,
+                "MarketTypeCode": "HCWEST",
+                "BetDetailTypeCode": "HC",
+                "DividendTypeCode": "FIXED",
+                "Points": -2.5,
+                "OutcomeImage": "et/107/df_basketball_left"
+              },
+              {
+                "FixedMarketID": 164284210,
+                "OutcomeID": 2,
+                "OutcomeName": "UL Lafayette Ragin' Cajuns",
+                "Price": 1.95,
+                "MarketTypeCode": "HCWEST",
+                "BetDetailTypeCode": "HC",
+                "DividendTypeCode": "FIXED",
+                "Points": 2.5,
+                "OutcomeImage": "et/107/df_basketball_right"
+              }
+            ]
+          }
+        },
+        {
+          "MasterEventID": 1212307,
+          "CategoryID": 9689,
+          "EventTypeID": 107,
+          "MasterEventName": "Eastern Illinois Panthers @ Belmont Bruins",
+          "CategoryName": "NCAA Matches",
+          "MasterCategoryID": 222,
+          "MasterCategoryName": "NCAA",
+          "AdvertisedStartTime": "2019-02-22T01:00:00Z",
+          "FeaturedMarket": {
+            "EventID": 35464251,
+            "EventName": "Line",
+            "AdvertisedStartTime": "2019-02-22T01:00:00Z",
+            "IsMultiAllowed": true,
+            "Outcomes": [
+              {
+                "FixedMarketID": 164290283,
+                "OutcomeID": 1,
+                "OutcomeName": "Belmont Bruins",
+                "Price": 1.87,
+                "MarketTypeCode": "HCWEST",
+                "BetDetailTypeCode": "HC",
+                "DividendTypeCode": "FIXED",
+                "Points": -16.5,
+                "OutcomeImage": "et/107/df_basketball_left"
+              },
+              {
+                "FixedMarketID": 164290284,
+                "OutcomeID": 2,
+                "OutcomeName": "Eastern Illinois Panthers",
+                "Price": 1.94,
+                "MarketTypeCode": "HCWEST",
+                "BetDetailTypeCode": "HC",
+                "DividendTypeCode": "FIXED",
+                "Points": 16.5,
+                "OutcomeImage": "et/107/df_basketball_right"
+              }
+            ]
+          }
+        },
+        {
+          "MasterEventID": 1212314,
+          "CategoryID": 9689,
+          "EventTypeID": 107,
+          "MasterEventName": "IPFW Mastodons @ South Dakota State Jackrabbits",
+          "CategoryName": "NCAA Matches",
+          "MasterCategoryID": 222,
+          "MasterCategoryName": "NCAA",
+          "AdvertisedStartTime": "2019-02-22T01:00:00Z",
+          "FeaturedMarket": {
+            "EventID": 35462553,
+            "EventName": "Line",
+            "AdvertisedStartTime": "2019-02-22T01:00:00Z",
+            "IsMultiAllowed": true,
+            "Outcomes": [
+              {
+                "FixedMarketID": 164282971,
+                "OutcomeID": 1,
+                "OutcomeName": "South Dakota State Jackrabbits",
+                "Price": 1.94,
+                "MarketTypeCode": "HCWEST",
+                "BetDetailTypeCode": "HC",
+                "DividendTypeCode": "FIXED",
+                "Points": -9.5,
+                "OutcomeImage": "et/107/df_basketball_left"
+              },
+              {
+                "FixedMarketID": 164282972,
+                "OutcomeID": 2,
+                "OutcomeName": "IPFW Mastodons",
+                "Price": 1.87,
+                "MarketTypeCode": "HCWEST",
+                "BetDetailTypeCode": "HC",
+                "DividendTypeCode": "FIXED",
+                "Points": 9.5,
+                "OutcomeImage": "et/107/df_basketball_right"
+              }
+            ]
+          }
+        },
+        {
+          "MasterEventID": 1217715,
+          "CategoryID": 64738,
+          "EventTypeID": 137,
+          "MasterEventName": "FlyQuest Academy v Counter Logic Gaming Academy",
+          "CategoryName": "NA League Academy",
+          "MasterCategoryID": 487,
+          "MasterCategoryName": "League Of Legends",
+          "AdvertisedStartTime": "2019-02-22T01:00:00Z",
+          "FeaturedMarket": {
+            "EventID": 35470799,
+            "EventName": "Head to Head",
+            "AdvertisedStartTime": "2019-02-22T01:00:00Z",
+            "IsMultiAllowed": true,
+            "EventRule": "In a best of 2 or best of 4 maps match, if the game finishes in a draw, all bets will be refunded unless a draw option is offered. If overtime is played, bets will be resulted as per the official result",
+            "Outcomes": [
+              {
+                "FixedMarketID": 164320713,
+                "OutcomeID": 1,
+                "OutcomeName": "FlyQuest Academy",
+                "Price": 1.52,
+                "MarketTypeCode": "WIN",
+                "BetDetailTypeCode": "WIN",
+                "DividendTypeCode": "FIXED",
+                "OutcomeImage": "et/137/df_e-sports_left"
+              },
+              {
+                "FixedMarketID": 164320714,
+                "OutcomeID": 2,
+                "OutcomeName": "Counter Logic Gaming Academy",
+                "Price": 2.4,
+                "MarketTypeCode": "WIN",
+                "BetDetailTypeCode": "WIN",
+                "DividendTypeCode": "FIXED",
+                "OutcomeImage": "et/137/df_e-sports_right"
+              }
+            ]
+          }
+        },
+        {
+          "MasterEventID": 1217776,
+          "CategoryID": 45434,
+          "EventTypeID": 137,
+          "MasterEventName": "Win Scrims Not Matches v Mythic",
+          "CategoryName": "ESEA Premier Division - North America",
+          "MasterCategoryID": 491,
+          "MasterCategoryName": "Counter Strike Global Offensive",
+          "AdvertisedStartTime": "2019-02-22T01:00:00Z",
+          "FeaturedMarket": {
+            "EventID": 35478303,
+            "EventName": "Head to Head",
+            "AdvertisedStartTime": "2019-02-22T01:00:00Z",
+            "IsMultiAllowed": true,
+            "EventRule": "In a best of 2 or best of 4 maps match, if the game finishes in a draw, all bets will be refunded unless a draw option is offered. If overtime is played, bets will be resulted as per the official result",
+            "Outcomes": [
+              {
+                "FixedMarketID": 164349474,
+                "OutcomeID": 1,
+                "OutcomeName": "Win Scrims Not Matches",
+                "Price": 1.38,
+                "MarketTypeCode": "WIN",
+                "BetDetailTypeCode": "WIN",
+                "DividendTypeCode": "FIXED",
+                "OutcomeImage": "et/137/df_e-sports_left"
+              },
+              {
+                "FixedMarketID": 164349475,
+                "OutcomeID": 2,
+                "OutcomeName": "Mythic",
+                "Price": 2.95,
+                "MarketTypeCode": "WIN",
+                "BetDetailTypeCode": "WIN",
+                "DividendTypeCode": "FIXED",
+                "OutcomeImage": "et/137/df_e-sports_right"
+              }
+            ]
+          }
+        },
+        {
+          "MasterEventID": 1209509,
+          "CategoryID": 1027,
+          "EventTypeID": 107,
+          "MasterEventName": "Boston Celtics @ Milwaukee Bucks",
+          "CategoryName": "NBA Matches",
+          "MasterCategoryID": 37,
+          "MasterCategoryName": "NBA",
+          "AdvertisedStartTime": "2019-02-22T01:05:00Z",
+          "FeaturedMarket": {
+            "EventID": 35456061,
+            "EventName": "Head to Head",
+            "AdvertisedStartTime": "2019-02-22T01:05:00Z",
+            "IsMultiAllowed": true,
+            "Outcomes": [
+              {
+                "FixedMarketID": 164254060,
+                "OutcomeID": 1,
+                "OutcomeName": "Milwaukee Bucks",
+                "Price": 1.38,
+                "MarketTypeCode": "WIN",
+                "BetDetailTypeCode": "WIN",
+                "DividendTypeCode": "FIXED",
+                "OutcomeImage": "mc/37/Milwaukee_Bucks"
+              },
+              {
+                "FixedMarketID": 164254061,
+                "OutcomeID": 2,
+                "OutcomeName": "Boston Celtics",
+                "Price": 3.15,
+                "MarketTypeCode": "WIN",
+                "BetDetailTypeCode": "WIN",
+                "DividendTypeCode": "FIXED",
+                "OutcomeImage": "mc/37/Boston_Celtics"
+              }
+            ]
+          }
+        },
+        {
+          "MasterEventID": 1212310,
+          "CategoryID": 9689,
+          "EventTypeID": 107,
+          "MasterEventName": "Morehead St Eagles @ Jacksonville St Gamecocks",
+          "CategoryName": "NCAA Matches",
+          "MasterCategoryID": 222,
+          "MasterCategoryName": "NCAA",
+          "AdvertisedStartTime": "2019-02-22T01:15:00Z",
+          "FeaturedMarket": {
+            "EventID": 35462559,
+            "EventName": "Line",
+            "AdvertisedStartTime": "2019-02-22T01:15:00Z",
+            "IsMultiAllowed": true,
+            "Outcomes": [
+              {
+                "FixedMarketID": 164282984,
+                "OutcomeID": 1,
+                "OutcomeName": "Jacksonville St Gamecocks",
+                "Price": 1.85,
+                "MarketTypeCode": "HCWEST",
+                "BetDetailTypeCode": "HC",
+                "DividendTypeCode": "FIXED",
+                "Points": -9.5,
+                "OutcomeImage": "et/107/df_basketball_left"
+              },
+              {
+                "FixedMarketID": 164282985,
+                "OutcomeID": 2,
+                "OutcomeName": "Morehead St Eagles",
+                "Price": 1.96,
+                "MarketTypeCode": "HCWEST",
+                "BetDetailTypeCode": "HC",
+                "DividendTypeCode": "FIXED",
+                "Points": 9.5,
+                "OutcomeImage": "et/107/df_basketball_right"
+              }
+            ]
+          }
+        },
+        {
+          "MasterEventID": 1185328,
+          "CategoryID": 64738,
+          "EventTypeID": 137,
+          "MasterEventName": "Team Liquid Academy v Optic Gaming Academy",
+          "CategoryName": "NA League Academy",
+          "MasterCategoryID": 487,
+          "MasterCategoryName": "League Of Legends",
+          "AdvertisedStartTime": "2019-02-22T01:30:00Z",
+          "FeaturedMarket": {
+            "EventID": 35470809,
+            "EventName": "Head to Head",
+            "AdvertisedStartTime": "2019-02-22T01:30:00Z",
+            "IsMultiAllowed": true,
+            "EventRule": "In a best of 2 or best of 4 maps match, if the game finishes in a draw, all bets will be refunded unless a draw option is offered. If overtime is played, bets will be resulted as per the official result",
+            "Outcomes": [
+              {
+                "FixedMarketID": 164320969,
+                "OutcomeID": 1,
+                "OutcomeName": "Team Liquid Academy",
+                "Price": 1.37,
+                "MarketTypeCode": "WIN",
+                "BetDetailTypeCode": "WIN",
+                "DividendTypeCode": "FIXED",
+                "OutcomeImage": "et/137/df_e-sports_left"
+              },
+              {
+                "FixedMarketID": 164320970,
+                "OutcomeID": 2,
+                "OutcomeName": "Optic Gaming Academy",
+                "Price": 2.92,
+                "MarketTypeCode": "WIN",
+                "BetDetailTypeCode": "WIN",
+                "DividendTypeCode": "FIXED",
+                "OutcomeImage": "et/137/df_e-sports_right"
+              }
+            ]
+          }
+        },
+        {
+          "MasterEventID": 1210179,
+          "CategoryID": 6795,
+          "EventTypeID": 111,
+          "MasterEventName": "St Louis Blues @ Dallas Stars",
+          "CategoryName": "NHL Matches",
+          "MasterCategoryID": 154,
+          "MasterCategoryName": "NHL",
+          "AdvertisedStartTime": "2019-02-22T01:30:00Z",
+          "FeaturedMarket": {
+            "EventID": 35426926,
+            "EventName": "H2H",
+            "AdvertisedStartTime": "2019-02-22T01:30:00Z",
+            "IsMultiAllowed": true,
+            "EventRule": "Includes Overtime",
+            "Outcomes": [
+              {
+                "FixedMarketID": 164147248,
+                "OutcomeID": 1,
+                "OutcomeName": "Dallas Stars",
+                "Price": 2.0,
+                "MarketTypeCode": "WIN",
+                "BetDetailTypeCode": "WIN",
+                "DividendTypeCode": "FIXED",
+                "OutcomeImage": "mc/154/Dallas_Stars"
+              },
+              {
+                "FixedMarketID": 164147249,
+                "OutcomeID": 2,
+                "OutcomeName": "St Louis Blues",
+                "Price": 1.84,
+                "MarketTypeCode": "WIN",
+                "BetDetailTypeCode": "WIN",
+                "DividendTypeCode": "FIXED",
+                "OutcomeImage": "mc/154/St_Louis_Blues"
+              }
+            ]
+          }
+        },
+        {
+          "MasterEventID": 1212301,
+          "CategoryID": 9689,
+          "EventTypeID": 107,
+          "MasterEventName": "SIU Edwardsville Cougars @ Tennessee State Tigers",
+          "CategoryName": "NCAA Matches",
+          "MasterCategoryID": 222,
+          "MasterCategoryName": "NCAA",
+          "AdvertisedStartTime": "2019-02-22T01:30:00Z",
+          "FeaturedMarket": {
+            "EventID": 35462980,
+            "EventName": "Line",
+            "AdvertisedStartTime": "2019-02-22T01:30:00Z",
+            "IsMultiAllowed": true,
+            "Outcomes": [
+              {
+                "FixedMarketID": 164284593,
+                "OutcomeID": 1,
+                "OutcomeName": "Tennessee State Tigers",
+                "Price": 1.86,
+                "MarketTypeCode": "HCWEST",
+                "BetDetailTypeCode": "HC",
+                "DividendTypeCode": "FIXED",
+                "Points": -5.5,
+                "OutcomeImage": "et/107/df_basketball_left"
+              },
+              {
+                "FixedMarketID": 164284594,
+                "OutcomeID": 2,
+                "OutcomeName": "SIU Edwardsville Cougars",
+                "Price": 1.95,
+                "MarketTypeCode": "HCWEST",
+                "BetDetailTypeCode": "HC",
+                "DividendTypeCode": "FIXED",
+                "Points": 5.5,
+                "OutcomeImage": "et/107/df_basketball_right"
+              }
+            ]
+          }
+        },
+        {
+          "MasterEventID": 1212302,
+          "CategoryID": 9689,
+          "EventTypeID": 107,
+          "MasterEventName": "Eastern Washington Eagles @ Southern Utah Thunderbirds",
+          "CategoryName": "NCAA Matches",
+          "MasterCategoryID": 222,
+          "MasterCategoryName": "NCAA",
+          "AdvertisedStartTime": "2019-02-22T01:30:00Z",
+          "FeaturedMarket": {
+            "EventID": 35462973,
+            "EventName": "Line",
+            "AdvertisedStartTime": "2019-02-22T01:30:00Z",
+            "IsMultiAllowed": true,
+            "Outcomes": [
+              {
+                "FixedMarketID": 164284578,
+                "OutcomeID": 1,
+                "OutcomeName": "Southern Utah Thunderbirds",
+                "Price": 1.93,
+                "MarketTypeCode": "HCWEST",
+                "BetDetailTypeCode": "HC",
+                "DividendTypeCode": "FIXED",
+                "Points": -2.5,
+                "OutcomeImage": "et/107/df_basketball_left"
+              },
+              {
+                "FixedMarketID": 164284579,
+                "OutcomeID": 2,
+                "OutcomeName": "Eastern Washington Eagles",
+                "Price": 1.88,
+                "MarketTypeCode": "HCWEST",
+                "BetDetailTypeCode": "HC",
+                "DividendTypeCode": "FIXED",
+                "Points": 2.5,
+                "OutcomeImage": "et/107/df_basketball_right"
+              }
+            ]
+          }
+        },
+        {
+          "MasterEventID": 1212311,
+          "CategoryID": 9689,
+          "EventTypeID": 107,
+          "MasterEventName": "Idaho Vandals @ Northern Arizona Lumberjacks",
+          "CategoryName": "NCAA Matches",
+          "MasterCategoryID": 222,
+          "MasterCategoryName": "NCAA",
+          "AdvertisedStartTime": "2019-02-22T01:30:00Z",
+          "FeaturedMarket": {
+            "EventID": 35462987,
+            "EventName": "Line",
+            "AdvertisedStartTime": "2019-02-22T01:30:00Z",
+            "IsMultiAllowed": true,
+            "Outcomes": [
+              {
+                "FixedMarketID": 164284608,
+                "OutcomeID": 1,
+                "OutcomeName": "Northern Arizona Lumberjacks",
+                "Price": 1.9,
+                "MarketTypeCode": "HCWEST",
+                "BetDetailTypeCode": "HC",
+                "DividendTypeCode": "FIXED",
+                "Points": -12.5,
+                "OutcomeImage": "et/107/df_basketball_left"
+              },
+              {
+                "FixedMarketID": 164284609,
+                "OutcomeID": 2,
+                "OutcomeName": "Idaho Vandals",
+                "Price": 1.91,
+                "MarketTypeCode": "HCWEST",
+                "BetDetailTypeCode": "HC",
+                "DividendTypeCode": "FIXED",
+                "Points": 12.5,
+                "OutcomeImage": "et/107/df_basketball_right"
+              }
+            ]
+          }
+        },
+        {
+          "MasterEventID": 1212313,
+          "CategoryID": 9689,
+          "EventTypeID": 107,
+          "MasterEventName": "Eastern Kentucky Colonels @ Tennessee Tech Golden Eagles",
+          "CategoryName": "NCAA Matches",
+          "MasterCategoryID": 222,
+          "MasterCategoryName": "NCAA",
+          "AdvertisedStartTime": "2019-02-22T01:30:00Z",
+          "FeaturedMarket": {
+            "EventID": 35462966,
+            "EventName": "Line",
+            "AdvertisedStartTime": "2019-02-22T01:30:00Z",
+            "IsMultiAllowed": true,
+            "Outcomes": [
+              {
+                "FixedMarketID": 164284563,
+                "OutcomeID": 1,
+                "OutcomeName": "Tennessee Tech Golden Eagles",
+                "Price": 1.93,
+                "MarketTypeCode": "HCWEST",
+                "BetDetailTypeCode": "HC",
+                "DividendTypeCode": "FIXED",
+                "Points": 3.5,
+                "OutcomeImage": "et/107/df_basketball_left"
+              },
+              {
+                "FixedMarketID": 164284564,
+                "OutcomeID": 2,
+                "OutcomeName": "Eastern Kentucky Colonels",
+                "Price": 1.88,
+                "MarketTypeCode": "HCWEST",
+                "BetDetailTypeCode": "HC",
+                "DividendTypeCode": "FIXED",
+                "Points": -3.5,
+                "OutcomeImage": "et/107/df_basketball_right"
+              }
+            ]
+          }
+        },
+        {
+          "MasterEventID": 1215196,
+          "CategoryID": 60910,
+          "EventTypeID": 137,
+          "MasterEventName": "Philadelphia Fusion v Florida Mayhem",
+          "CategoryName": "Overwatch League",
+          "MasterCategoryID": 923,
+          "MasterCategoryName": "Overwatch",
+          "AdvertisedStartTime": "2019-02-22T01:30:00Z",
+          "FeaturedMarket": {
+            "EventID": 35380819,
+            "EventName": "Head to Head",
+            "AdvertisedStartTime": "2019-02-22T01:30:00Z",
+            "IsMultiAllowed": true,
+            "Outcomes": [
+              {
+                "FixedMarketID": 163974683,
+                "OutcomeID": 1,
+                "OutcomeName": "Philadelphia Fusion",
+                "Price": 1.1,
+                "MarketTypeCode": "WIN",
+                "BetDetailTypeCode": "WIN",
+                "DividendTypeCode": "FIXED",
+                "OutcomeImage": "et/137/df_e-sports_left"
+              },
+              {
+                "FixedMarketID": 163974684,
+                "OutcomeID": 2,
+                "OutcomeName": "Florida Mayhem",
+                "Price": 6.25,
+                "MarketTypeCode": "WIN",
+                "BetDetailTypeCode": "WIN",
+                "DividendTypeCode": "FIXED",
+                "OutcomeImage": "et/137/df_e-sports_right"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "NextPageUrl": "/mobile/event/sports/multi/?expandFilter=True&page=2&pagesize=20",
+  "TotalRecords": 558
+}

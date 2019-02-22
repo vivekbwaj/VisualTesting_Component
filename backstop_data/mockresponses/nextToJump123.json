@@ -1,0 +1,130 @@
+{
+  "result": [
+    {
+      "EventID": 35441951,
+      "MasterEventID": 1216475,
+      "EventName": "Race 4 - Claiming",
+      "EventTypeDesc": "Thoroughbred",
+      "MasterEventName": "Races",
+      "AdvertisedStartTime": "2019-02-22T00:52:00Z",
+      "RaceNumber": 4,
+      "EventType": {
+        "EventTypeID": 1,
+        "EventTypeDesc": "Thoroughbred",
+        "MasterEventTypeID": 1,
+        "Slug": "horse-racing"
+      },
+      "Venue": {
+        "Venue": "Beteasy Office",
+        "StateCode": null,
+        "Slug": "beteasy-office"
+      },
+      "IsMultiAllowed": true,
+      "Slug": "race-4-claiming",
+      "DateSlug": "20190222",
+      "RacingStreamAllowed": false,
+      "RacingReplayStreamAllowed": false
+    },
+    {
+      "EventID": 35464284,
+      "MasterEventID": 1217174,
+      "EventName": "Race 3",
+      "EventTypeDesc": "Greyhounds",
+      "MasterEventName": "Races",
+      "AdvertisedStartTime": "2019-02-22T00:53:00Z",
+      "RaceNumber": 3,
+      "EventType": {
+        "EventTypeID": 3,
+        "EventTypeDesc": "Greyhounds",
+        "MasterEventTypeID": 1,
+        "Slug": "greyhound-racing"
+      },
+      "Venue": {
+        "Venue": "Daytona Beach",
+        "StateCode": null,
+        "Slug": "daytona-beach"
+      },
+      "IsMultiAllowed": true,
+      "Slug": "race-3",
+      "DateSlug": "20190222",
+      "RacingStreamAllowed": false,
+      "RacingReplayStreamAllowed": false
+    },
+    {
+      "EventID": 35500931,
+      "MasterEventID": 1217962,
+      "EventName": "Mohawk Pace Ms",
+      "EventTypeDesc": "Trots",
+      "MasterEventName": "Races",
+      "AdvertisedStartTime": "2019-02-22T00:55:00Z",
+      "RaceNumber": 3,
+      "EventType": {
+        "EventTypeID": 2,
+        "EventTypeDesc": "Trots",
+        "MasterEventTypeID": 1,
+        "Slug": "harness-racing"
+      },
+      "Venue": {
+        "Venue": "Mohawk",
+        "StateCode": null,
+        "Slug": "mohawk"
+      },
+      "IsMultiAllowed": true,
+      "Slug": "mohawk-pace-ms",
+      "DateSlug": "20190222",
+      "RacingStreamAllowed": false,
+      "RacingReplayStreamAllowed": false
+    },
+    {
+      "EventID": 35376137,
+      "MasterEventID": 1214741,
+      "EventName": "Top Cat Video (250+Rank)",
+      "EventTypeDesc": "Greyhounds",
+      "MasterEventName": "Races",
+      "AdvertisedStartTime": "2019-02-22T00:56:00Z",
+      "RaceNumber": 1,
+      "EventType": {
+        "EventTypeID": 3,
+        "EventTypeDesc": "Greyhounds",
+        "MasterEventTypeID": 1,
+        "Slug": "greyhound-racing"
+      },
+      "Venue": {
+        "Venue": "Healesville",
+        "StateCode": "VIC",
+        "Slug": "healesville"
+      },
+      "IsMultiAllowed": true,
+      "Slug": "top-cat-video-250rank",
+      "DateSlug": "20190222",
+      "RacingStreamAllowed": false,
+      "RacingReplayStreamAllowed": false
+    },
+    {
+      "EventID": 35441985,
+      "MasterEventID": 1216476,
+      "EventName": "Race 3 - Claiming",
+      "EventTypeDesc": "Thoroughbred",
+      "MasterEventName": "Races",
+      "AdvertisedStartTime": "2019-02-22T00:57:00Z",
+      "RaceNumber": 3,
+      "EventType": {
+        "EventTypeID": 1,
+        "EventTypeDesc": "Thoroughbred",
+        "MasterEventTypeID": 1,
+        "Slug": "horse-racing"
+      },
+      "Venue": {
+        "Venue": "Charles Town",
+        "StateCode": null,
+        "Slug": "charles-town"
+      },
+      "IsMultiAllowed": true,
+      "Slug": "race-3-claiming",
+      "DateSlug": "20190222",
+      "RacingStreamAllowed": false,
+      "RacingReplayStreamAllowed": false
+    }
+  ],
+  "success": true
+}
