@@ -9,12 +9,16 @@ We tend to use UI tests more sparingly.What if we could automate some visual tes
 - To capture reference image from production `npm run prod-reference`
 
 Similarly other scripts can be run as `npm run scriptname`. 'scriptname' are mentioned in package.json file.
+    - Quick Tip:
+        - npm run uat-reference
+        - npm run ticket-test -- PEG-4281
+        - npm run ticket-approve -- PEG-4281
 
 #### Backstop configuration files:
 - config.js: This file contains the values for stuff like where the snapshots/reports will be stored, which all environments will be tested, command line arguments to be passed to npm scripts
 - node backstop.js : This is the core of the BackstopJS framework.When the npm scripts are run backstopJS looks for this file and starts building up the structure for the tests to run. This file contains backstop requirements of:
  - viewports:Screen sizes to be used
- - engine to run tests on. **puppeteer** being default 
+ - engine to run tests on. **puppeteer** being default
 
 #### Directories:
 - tests : This directory contains path.js and test.js
@@ -27,7 +31,7 @@ Similarly other scripts can be run as `npm run scriptname`. 'scriptname' are men
     ** The second step ** would be to enter the requisite css selectors in the arrays above.
 - utils : Contains setup.js file thats picks up parameters specified in config.js file and initializes environments that are being compared.
 - backstop_data: This directory contains:
-    ├───engine_scripts 
+    ├───engine_scripts
     │   └───puppet
     ├───engine_Scripts_Screenshots
     ├───prod_ci_report
@@ -46,6 +50,6 @@ Similarly other scripts can be run as `npm run scriptname`. 'scriptname' are men
     - prod-test: Run test for prod environment
     - prod-reference: Capture reference images fresh from start, overrides existing files
     - prod-approve: Update reference images by copying missing images. Basically copies new images captured from the last prod-test to prod reference directory
-    
+
 
 For basic tutorials follow [AUTOMATION TIPSNTRICKS](http://automationtipsntricks.blogspot.com/search/label/BackstopJS)
