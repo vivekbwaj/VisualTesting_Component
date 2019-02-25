@@ -28,12 +28,12 @@ module.exports = async (page, scenario, viewport) => {
 
     mck.mocker();
     mck.mock(false, "/apiproxy/mobile/event/sports/multi/", multi);
-    mck.mock(false, "/apiproxy/WebEventAPI/racing/multibet/upcoming/1,2,3/4", mu4);
+    // mck.mock(false, "/apiproxy/WebEventAPI/racing/multibet/upcoming/1,2,3/4", mu4);
     mck.mock(false, "/apiproxy/WebEventAPI/racing/multibet/upcoming/1,2,3/8", mu8);
     mck.mock(false, "/apiproxy/nbavision/epg/37", nba);
     mck.mock(false, "/api/home/next-jumps/1,2,3", ntj);
     mck.mock(false, "/api/racing/racing/", rcToday);
-    console.log("response mocked for all pis on homepage");
+    console.log("response mocked for all Apis on homepage");
 
     await page.setDefaultNavigationTimeout(30000);
 };

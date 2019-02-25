@@ -1,13 +1,13 @@
 const config = require("../config.js");
 let args = config.ARGS;
 
-
 class setup {
 
     constructor() {
         this.setEnv();
         this.setRef();
         this.setTestHost();
+        this.setOptimizely();
     }
 
     setPath() {
@@ -36,6 +36,11 @@ class setup {
         // Site for reference screenshots
         args.BS_REFHOST = (!args.BS_REFHOST) ? config.ENVIRONMENTS[args.BS_ENV] : config.ENVIRONMENTS[args.BS_REFHOST];
 
+    }
+
+    setOptimizely() {
+        if (args.BS_REFHOST === "prod" || args.BS_ENV === "prod" || args.BS_TESTHOST === "post")
+            return config.OPTIMIZELY = "?optimizely_disable=true";
     }
 
     setTestHost() {
