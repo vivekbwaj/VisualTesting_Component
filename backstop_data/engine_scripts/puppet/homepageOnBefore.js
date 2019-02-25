@@ -14,7 +14,7 @@ module.exports = async (page, scenario, viewport) => {
     const nba = await require("../../mockresponses/nbaVision37.json");
     const ntj = await require("../../mockresponses/nextToJump123.json");
     const rcToday = await require("../../mockresponses/racingToday.json");
-
+    const screenshotDir = process.cwd() + "/backstop_data/engine_Scripts_Screenshots/";
     const Mocker = await require("../../../utils/Mocker");
 
     mck = new Mocker(page);
@@ -35,5 +35,6 @@ module.exports = async (page, scenario, viewport) => {
     mck.mock(false, "/api/racing/racing/", rcToday);
     console.log("response mocked for all Apis on homepage");
 
+    await page.screenshot({path: screenshotDir + "homepage.png", fullPage: true});
     await page.setDefaultNavigationTimeout(30000);
 };

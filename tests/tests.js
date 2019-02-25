@@ -11,7 +11,7 @@ const selectorsArray = [
 ];
 
 let onBeforeScriptsArray = {
-    "Homepage": config.CUSTOM_SCRIPTS_PATHS + "homepage.js"
+    "Homepage": config.CUSTOM_SCRIPTS_PATHS + "homepageOnBefore.js"
 };
 
 let onReadyScriptsArray = {
